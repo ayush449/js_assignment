@@ -1,0 +1,25 @@
+
+1) Get battles.json via. AJAX call
+From battle json provide following output
+
+(For AJAX to work in this one, you’ll have to host your json online and then you can access the data from that url. You can skip this step and directly load json from a file or take it in a variable and can access json into your code, since ajax calls will be covered in the next 3 tasks.)
+
+{
+'most_active':{
+    'attacker_king',
+    'defender_king',
+    'region',
+    'name'
+},
+'attacker_outcome':{
+    'win', // total win
+    'loss' // total loss
+},
+'battle_type':[], // unique battle types
+'defender_size':{
+    'average',
+    'min',
+    'max'
+    }
+}
+
